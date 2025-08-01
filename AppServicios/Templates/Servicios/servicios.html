@@ -1,0 +1,27 @@
+{% extends 'AppHome/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+{% for nombre in servicios %}
+
+<div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <p><img class="img-fluid mb-3 mb-lg-0 rounded" src="{{nombre.imagen.url}}" alt=""></p>
+         </div>
+    
+        <div class="col-md-8">
+          <h1 class="section-heading mb-4">
+              <h2 style="color:white">{{nombre.titulo}}</h2>
+              <span class="section-heading-lower" style="color:white">{{nombre.contenido}}</span>
+            </h1>
+          </div>
+        </div>    
+      </div>
+      
+
+{% endfor %}
+
+{% endblock %}
