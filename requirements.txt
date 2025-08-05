@@ -1,22 +1,11 @@
-python -m pip --upgrade pip
-asgiref==3.8.1
-cffi==1.17.1
-click==8.2.1
-colorama==0.4.6
-comtypes==1.4.10
-crispy-bootstrap4==2025.6
-django-crispy-forms==2.4
-h11==0.16.0
-numpy==2.2.5
-packaging==25.0
-pillow==11.2.1
-pocketsphinx==5.0.4
-PyAudio==0.2.14
-pycparser==2.22
-pypiwin32==223
-pyttsx3==2.98
-pywin32; sys_platform == 'win32'
-sounddevice==0.5.1
-sqlparse==0.5.3
-typing_extensions==4.13.0
-tzdata==2025.2
+asgiref==3.7.2
+dj-database-url==2.1.0
+Django==3.2.1
+gunicorn==21.2.0
+packaging==23.1
+psycopg2==2.9.7
+pytz==2023.3.post1
+sqlparse==0.4.4
+typing_extensions==4.7.1
+tzdata==2023.3
+whitenoise==6.5.0
